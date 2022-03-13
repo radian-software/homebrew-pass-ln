@@ -1,9 +1,9 @@
 class PassLn < Formula
   desc "Pass extension for creating symbolic links"
   homepage "https://github.com/raxod502/pass-ln"
-  url "https://github.com/raxod502/pass-ln/releases/download/v2.0.0/pass-ln-2.0.0.tar.gz"
-  version "2.0.0"
-  sha256 "e9521261347c499409a76d6937304ff7ac6ed190cc212bac58cf893a8bb72d72"
+  url "https://github.com/raxod502/pass-ln/releases/download/v2.0.1/pass-ln-2.0.1.tar.gz"
+  version "2.0.1"
+  sha256 "3850f6fbb8d4b5d43fd79dcc76657cd71499498c19dce7fa25c73fea7ab66501"
   license "MIT"
 
   depends_on "pass"
