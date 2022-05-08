@@ -2,11 +2,11 @@
 
 set -euo pipefail
 
-ver="$(curl -sSL "https://api.github.com/repos/raxod502/pass-ln/releases/latest" | jq -r .tag_name | sed 's/^v//')"
+ver="$(curl -sSL "https://api.github.com/repos/radian-software/pass-ln/releases/latest" | jq -r .tag_name | sed 's/^v//')"
 
 rm -rf tmp
 mkdir -p tmp
-wget "https://github.com/raxod502/pass-ln/releases/download/v${ver}/pass-ln-homebrew-${ver}.tar.gz" -O tmp/pass-ln-homebrew.tar.gz
+wget "https://github.com/radian-software/pass-ln/releases/download/v${ver}/pass-ln-homebrew-${ver}.tar.gz" -O tmp/pass-ln-homebrew.tar.gz
 
 rm -rf Formula
 mkdir -p Formula
